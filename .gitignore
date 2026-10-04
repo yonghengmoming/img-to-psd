@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.idea/
+.vscode/
+*.psd
+!示例_三层.psd

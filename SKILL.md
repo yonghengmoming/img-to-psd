@@ -1,7 +1,7 @@
 ---
 name: psd-generation
 description: "将海报、详情页等平面图片还原为同尺寸的 Photoshop 多层 PSD，识别横排、竖排和倾斜中文并建立原生可编辑文字层；无法识别的文字使用 ♦️。也适用于已有素材合成分层 PSD。"
-version: 1.2.0
+version: 1.2.1
 metadata:
   hermes:
     tags: [PSD, Photoshop, Imaging, E-commerce, Creative]

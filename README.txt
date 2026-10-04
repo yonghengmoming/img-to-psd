@@ -1,6 +1,6 @@
 imgtopsd — 图片还原为分层、中文可编辑 PSD
-版本：1.2.0
-更新日期：2026-09-21
+版本：1.2.1
+更新日期：2026-10-04
 
 一、用途与边界
 
@@ -124,9 +124,13 @@ Photoshop 应用内检查：
 
 十一、目录文件
 
+README.md：项目简介与快速上手（GitHub 首页展示）。
 README.txt：本操作流程。
 SKILL.md：供 Agent 使用的技能规则。
-make_psd.py：原有像素 PSD 演示模板，本次未扩展为自动 OCR 或原生文字转换器。
-示例_三层.psd：原有演示文件。
+make_psd.py：像素 PSD 演示模板，未扩展为自动 OCR 或原生文字转换器。
+示例_三层.psd：make_psd.py 的演示输出（800×600，三层，raw 无压缩约 7MB）。
+requirements.txt：Python 依赖清单（pytoshop 1.2.1、numpy 2.4.3、Pillow 12.3.0）。
+.gitignore：忽略缓存与生成文件（示例 PSD 除外）。
+LICENSE：MIT 许可证。
 
-本次更新只整理说明和规则，不重新修改此前交付的 PSD 或自动替换其中的疑似字。后续转换任务须执行上述 ♦️ 规则。
+2026-10-04 更新：目录清单与仓库实际文件同步；新增 README.md、requirements.txt、.gitignore、LICENSE；补传示例_三层.psd。操作规则、验收要求与 ♦️ 约定不变，后续转换任务仍须执行。

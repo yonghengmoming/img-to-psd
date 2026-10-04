@@ -1,0 +1,3 @@
+pytoshop==1.2.1
+numpy==2.4.3
+Pillow==12.3.0
